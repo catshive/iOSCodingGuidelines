@@ -1,6 +1,4 @@
 # iOS Coding Guidlines
-## Cathy Shive
-## February, 2013
 
 This document covers naming and formatting conventions used to program iOS apps.
 
