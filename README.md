@@ -281,9 +281,10 @@ Pointers go in front of the variable name with no white space.
 Put a white space between the statement and the parentheses
 
 ```
-if (theIndex >= 0)
-{
+if (theIndex >= 0) {
 	// do something
+} else {
+	// do something else
 }
 
 // for (aThing in theThings)
@@ -293,14 +294,21 @@ if (theIndex >= 0)
 
 ### Brackets
 
-Put brackets on a new line (See: [Allman Style](http://en.wikipedia.org/wiki/Indent_style#Allman_style))
+See: [BSD KNF style](BSD KNF style)
 
 ```
-- (void)layoutSubviews
+- (void)layoutSubviews 
 {
-	for (UIView *aView in self.subviews)
-	{
+	for (UIView *aView in self.subviews) {
 		aView.frame = aFrame;
+	}
+	
+	if (x == 1) {
+		// do something
+	} else if (x == 2) {
+		// do something else
+	} else {
+		// do something else
 	}
 }
 ```
